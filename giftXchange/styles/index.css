@@ -1,0 +1,122 @@
+.login-container {
+  position: relative;
+  min-height: 94.5vh;
+}
+
+.background-image {
+  background-image: url("../images/xmas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05); /* Adjust the opacity (0.3) to control the darkness */
+  z-index: 1;
+}
+
+.background-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans font */
+}
+.slogan {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+  font-family: 'Snell Roundhand', cursive;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  z-index: 1;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 750px;
+  padding: 0 20px;
+}
+.login-card {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-size: large;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  border: 1px solid lightgray;
+  z-index: 2;
+}
+
+.image-container {
+  width: 23%;
+  height: 50%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  position:relative;
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #008F5A;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+html, body {
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+
+
+   
+
+
+

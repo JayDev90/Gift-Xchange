@@ -1,0 +1,83 @@
+body {
+	font-family: 'Open Sans', sans-serif; /* Use Open Sans font */
+	margin: 0;
+  }
+
+  .background {
+	background-image: url("/giftXchange/images/xmas.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	background-blend-mode: screen;
+
+  }
+
+  .main-content {
+	position: relative;
+	height: 100vh;
+
+  }
+  
+  .greeting {
+	color: white;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	  font-family: 'Montserrat', sans-serif;
+  }
+
+.tile-container {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tile {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 175px;
+	margin: 10px;
+	color: #000;
+	background-image: url("/giftXchange/images/side_menu_image.PNG");
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 15px;  /* Increase border-radius */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+	transition: all 0.3s ease; /* Add transition for smooth effect */
+	font-family: 'Montserrat', sans-serif;
+	border: 4px solid white; /* Add white border */
+}
+
+.tile:hover {
+	background-color: #008F5A;
+	color: white;
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+	transform: translateY(-5px); /* Add subtle lift effect on hover */
+}
+
+.christmas-countdown {
+	position: fixed;
+	bottom: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: xx-large;
+}
+

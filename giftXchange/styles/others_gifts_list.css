@@ -1,0 +1,67 @@
+.button-my-dashboard {
+    background-color: #FEACAD;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button-my-dashboard:hover {
+    background-color: #FF898E;
+    color: white;
+}
+/* Style the user items */
+#userList .user-item {
+    background-color: #FF5057;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+    font-family: 'Montserrat', sans-serif;
+}
+#userList .user-item:hover:not(.active) {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    background-color: #008F5A;
+    color: white;
+}
+#userList .user-item:active {
+    background-color: #b22222;
+    color: white;
+}
+/* Style the accordion content */
+.accordion-content {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+.accordion-content .gift-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.accordion-content .gift-list li {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form-group {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gift-list {
+    font-family: 'Montserrat', sans-serif;
+}

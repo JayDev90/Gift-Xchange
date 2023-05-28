@@ -1,0 +1,65 @@
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#giftList {
+  margin-top: 20px;
+}
+
+#giftList div {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#saveGiftListBtn,
+#resetWishlist,
+#cancelWishlist {
+  display: none;
+}
+
+.gift-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gift-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+

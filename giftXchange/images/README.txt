@@ -1,0 +1,1 @@
+This folder will contain all the images that you use on your site.

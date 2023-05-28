@@ -1,0 +1,135 @@
+#adminMenu {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.view-users-header {
+    background-color: #FEACAD;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+    font-family: 'Montserrat', sans-serif;
+}
+.user-list-drop-down label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    display: inline;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.user-list-drop-down select {
+    width: 25%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FEACAD;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+.user-list-drop-down select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.user-list-drop-down select option {
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th {
+    background-color: #FEACAD;
+    color: #333;
+    padding: 5px 10px;
+    text-align: left;
+    font-weight: bold;
+}
+tr {
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+tr:nth-of-type(even) {
+    background-color: #EAEAEA;
+}
+
+.christmas-countdown {
+    position: fixed;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addUserBtn, #logOutBtn {
+    background-color: #FF898E;;
+    color: white;
+    padding: 5px 15px; /* Increased padding */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    margin: 0 10px; /* Add some margin between the buttons */
+}
+
+.deleteUserBtn {
+    background-color: #AF0000;
+    color: white;
+    padding: 5px 15px; /* Increased padding */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px; /* Increased font size */
+}
+
+.deleteUserBtn:hover {
+    background-color: #FF0000;
+}
+
+button#resetPasswordBtn {
+    background-color: #FF898E;;
+    color: white;
+    padding: 5px 15px; /* Increased padding */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px; /* Increased font size */
+}
+
+button#resetPasswordBtn:hover {
+    background-color: #008F5A;
+}

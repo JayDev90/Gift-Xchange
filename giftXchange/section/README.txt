@@ -1,0 +1,1 @@
+Organize your code by placing the pages for each different section of the site into a new folder. Folders are referred to as directories on websites.
